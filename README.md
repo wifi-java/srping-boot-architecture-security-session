@@ -1,11 +1,11 @@
-srping-boot-architecture-security-session
+srping-boot-architecture-security-session  
 
-srpingboot 3.0
-java 17
-mysql 8.0
-
-테스트를 위한 테이블 생성 필요.
-
+srpingboot 3.0  
+java 17  
+mysql 8.0  
+  
+테스트를 위한 테이블 생성 필요.  
+  
 CREATE TABLE `tb_member` (  
   `IDX` BIGINT(19) NOT NULL AUTO_INCREMENT,  
   `ID` VARCHAR(100) NULL DEFAULT NULL COMMENT '아이디' COLLATE 'utf8mb4_0900_ai_ci',  
